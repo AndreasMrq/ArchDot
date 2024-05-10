@@ -1,0 +1,36 @@
+default partial alphanumeric_keys
+xkb_symbols "qwerty-pro" {
+
+    name[Group1]= "English (US, intl., with alternative symbol keys)";
+
+    include "us(altgr-intl)" 
+
+    key <TLDE> { [dead_grave, dead_tilde,         grave,       asciitilde ] };
+    key <AE01> { [	   1,     exclam,    exclamdown,      onesuperior ] };
+    key <AE02> { [	   2,         braceleft,   twosuperior, dead_doubleacute ] };
+    key <AE03> { [	   3, bracketleft, threesuperior,      dead_macron ] };
+    key <AE04> { [	   4,     parenleft,      currency,         sterling ] };
+    key <AE05> { [	   5,    equal,      EuroSign,     dead_cedilla ] };
+    key <AE06> { [    6, ampersand,    onequarter,      asciicircum ] };
+    key <AE07> { [	   7,  parenright,       onehalf,	dead_horn ] };
+    key <AE08> { [	   8,  bracketright,      dead_ogonek, dead_ogonek ] };
+    key <AE09> { [	   9,  braceright, leftsinglequotemark, dead_breve ] };
+    key <AE10> { [	   0, plus, rightsinglequotemark, dead_abovering ] };
+    key <AE11> { [     minus, underscore,           yen,    dead_belowdot ] };
+    key <AE12> { [     equal,       plus,      multiply,         division ] };
+
+    key <AD01> { [	   q,          Q,    at,       at ] };
+    key <AD04> { [	   r,          R,    numbersign,        numbersign ] };
+    key <AD05> { [	   t,          T,    tilde,        tilde ] };
+    key <AD10> { [	   p,          P,    percent,       percent ] };
+
+    key <AC01> { [	   a,          A,        ampersand,           Aacute ] };
+    key <AC03> { [	   d,          D,           dollar,              dollar ] };
+    key <AC04> { [	   f,          F,    grave,       Ediaeresis ] };
+    key <AC07> { [	   j,          J,    idiaeresis,       Idiaeresis ] };
+
+    key <AB02> { [	   x,          X, asterisk,     asterisk ] };
+
+    include "level3(ralt_switch)"
+};
+
