@@ -1,4 +1,4 @@
-!#bin/bash
-ln ~/.config/xkb/qwerty-pro /usr/share/X11/xkb/symbols/
+#bin/bash
+ln ~/.config/xkb/qwertypro /usr/share/X11/xkb/symbols/
 
 
