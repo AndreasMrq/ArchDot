@@ -21,7 +21,7 @@ xkb_symbols "qwerty-pro" {
 
     key <AD01> { [	   q,          Q,    at,       at ] };
     key <AD04> { [	   r,          R,    numbersign,        numbersign ] };
-    key <AD05> { [	   t,          T,    tilde,        tilde ] };
+    key <AD05> { [	   t,          T,    asciitilde,        asciitilde ] };
     key <AD10> { [	   p,          P,    percent,       percent ] };
 
     key <AC01> { [	   a,          A,        ampersand,           Aacute ] };
