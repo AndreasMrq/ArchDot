@@ -27,7 +27,7 @@ xkb_symbols "qwerty-pro" {
     key <AC01> { [	   a,          A,        ampersand,           Aacute ] };
     key <AC03> { [	   d,          D,           dollar,              dollar ] };
     key <AC04> { [	   f,          F,    grave,       Ediaeresis ] };
-    key <AC07> { [	   j,          J,    idiaeresis,       Idiaeresis ] };
+    key <AC06> { [	   h,          H,    asciicircum,       Ediaeresis ] };
 
     key <AB02> { [	   x,          X, asterisk,     asterisk ] };
 

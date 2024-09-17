@@ -11,7 +11,13 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob
 unsetopt beep
+
+# Enable vim mode
 bindkey -v
+
+# Enable reverse history search on Ctrl-r
+bindkey '^R' history-incremental-search-backward
+
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/andi/.zshrc'
