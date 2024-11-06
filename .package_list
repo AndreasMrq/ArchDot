@@ -3,6 +3,7 @@ base
 bat
 bluez
 bluez-utils
+cmake
 dmenu
 efibootmgr
 firefox
@@ -16,6 +17,7 @@ i3-wm
 i3blocks
 i3lock
 i3status
+just
 linux
 linux-firmware
 love
@@ -39,6 +41,7 @@ sudo
 telegram-desktop
 tlp
 unzip
+vi
 wezterm
 wireplumber
 xclip
